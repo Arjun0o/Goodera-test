@@ -11,13 +11,13 @@ export const Main = () => {
         <div className={styles.navigation}>
           <div className={styles.menuContainer}>
             <Job style={{ marginRight: "6px" }} />
-            <p className={styles.jobHuntText}> JobHunt</p>
-            <p className={styles.jobText}>Find Jobs</p>
-            <p className={styles.menuItems}> Upskill Yourself</p>
+            <button className={styles.jobHuntText}> JobHunt</button>
+            <button className={styles.jobText}>Find Jobs</button>
+            <button className={styles.menuItems}> Upskill Yourself</button>
           </div>
           <div className={styles.menuContainer}>
-            <p className={styles.menuItems}> Post a Job</p>
-            <p className={styles.menuItems}> Sign in</p>
+            <button className={styles.menuItems}> Post a Job</button>
+            <button className={styles.menuItems}> Sign in</button>
           </div>
         </div>
         <div className={styles.textContainer}>
