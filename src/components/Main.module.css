@@ -1,0 +1,97 @@
+.wrapper {
+  background: #5d9adf;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.menuWrapper {
+  padding: 3rem 5rem;
+  height: 350px;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.menuItems {
+  margin: auto 2rem;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.jobHuntText {
+  margin-right: 2rem;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.jobText {
+  margin: auto 2rem;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  white-space: nowrap;
+}
+.jobText:after {
+  content: "";
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10%;
+  width: 2rem;
+}
+
+.textContainer {
+  margin-top: 4rem;
+  color: #fff;
+}
+.findJobText {
+  font-weight: 700;
+  font-size: 50px;
+}
+.browseText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.resultWrapper {
+  background: #eaeaea;
+  position: relative;
+}
+
+@media screen and (max-width: 850px) {
+  .menuItems {
+    font-size: 12px;
+  }
+  .jobHuntText {
+    margin-right: 2rem;
+    font-size: 14px;
+  }
+
+  .jobText {
+    font-size: 12px;
+  }
+  .findJobText {
+    font-size: 40px;
+  }
+  .browseText {
+    font-size: 15px;
+    line-height: 40px;
+  }
+}
